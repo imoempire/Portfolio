@@ -8,3 +8,12 @@ margin-bottom: 0;}
 }
 
 /* jumbo or carousel css */
+.face {
+	background: rgb(12, 27, 59);
+	overflow: auto;
+}
+.active img { 
+    object-fit: cover;
+    opacity: 0.4; }
+    
+    
