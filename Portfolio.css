@@ -1,16 +1,22 @@
 /* navbar css */
-.nav {margin-top: 0px;
-margin-bottom: 0;}
+.nav {margin-top: 20px;
+margin-bottom: 0;
+padding-left: 70px;}
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #202834;
 }
+.nav-link.active{ font-family: ;}
 
 /* jumbo or carousel css */
-.face {
+.home-face {
 	background: rgb(12, 27, 59);
 	overflow: auto;
+}
+.face-img{
+    width: 100%;
+    height: 90vh;
 }
 .active img { 
     object-fit: cover;
