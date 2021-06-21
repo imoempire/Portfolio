@@ -1,0 +1,10 @@
+/* navbar css */
+.nav {margin-top: 0px;
+margin-bottom: 0;}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #202834;
+}
+
+/* jumbo or carousel css */
