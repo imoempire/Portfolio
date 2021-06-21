@@ -1,14 +1,21 @@
 /* navbar css */
-.nav {margin-top: 20px;
+.navbar {margin-top: -10px;
 margin-bottom: 0;
-padding-left: 70px;}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #202834;
+padding-left: 70px;
 }
-.nav-link.active{ font-family: ;}
+.nav-link.active {font-family: 'Yanone Kaffeesatz', sans-serif; font-size: 20px;}
+.name{ font-family: 'Dancing Script', cursive; font-size: 40px; color: white; margin-right: 100px;}
+.navbar-light .navbar-brand { color: #e9eff0;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(239 235 235 / 55%);
+    border-color: rgb(243, 239, 239);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    background: #ffffff9e;
 
+}
 /* jumbo or carousel css */
 .home-face {
 	background: rgb(12, 27, 59);
