@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,14 +15,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   <title>My Web</title>
 </head>
+
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg nav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid ">
       <a class="navbar-brand name" href="#">My Web</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: crimson;">
+        menu
+        <span class="navbar-toggler-icon" ></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -41,16 +44,9 @@
   </nav>
   <!-- jumbo -->
   <div class="container-fluid jumbo">
-    <div class="col-md-8">
+    <div class="col-sm-8">
       <div class="home-face" id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
+        
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/Home.jpg" class="d-block w-100 face-img" alt="...">
@@ -73,68 +69,78 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-sm-4">
       <div class="col">
         <form class="form row g-3 needs-validation" novalidate">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+              required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" required>
+            <div class="invalid-feedback">Please provide a valid city.</div>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="create" class="btn btn-primary">New Member</button>
+           <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="link" class="btn btn-success">New Member</button>
         </form>
       </div>
     </div>
   </div>
   <!-- card -->
-  <div class="container cards">
-   <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="images/undraw_Website_setup_re_d4y9.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Website Design</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Read More</a>
+  <center>
+    <div class="container cards">
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="images/undraw_Website_setup_re_d4y9.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Website Design</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/undraw_coming_home_52ir.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">House Design</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/undraw_printing_invoices_5r4r.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Graphic Design</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="images/undraw_coming_home_52ir.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">House Design</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Read More</a>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="images/undraw_printing_invoices_5r4r.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Graphic Design</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Read More</a>
-      </div>
-    </div>
-   </div>
-  </div>
+  </center>
   <!-- footer -->
   <div class="container-fluid">
     <footer class="footer">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 foot-txt">
+          <div class="col-sm-6 foot-txt">
             <ul class="list-unstyled">
               <li class="text-center"> &copy 2020. All Rights Reserved</li>
             </ul>
           </div>
-          <div class="col-md-6 social">
+          <div class="col-sm-6 social">
           </div>
         </div>
       </div>
