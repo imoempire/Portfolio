@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +14,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   <title>My Web</title>
 </head>
-
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid fixed-top">
+  <nav class="navbar navbar-expand-lg nav">
+    <div class="container-fluid ">
       <a class="navbar-brand name" href="#">My Web</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +39,6 @@
       </div>
     </div>
   </nav>
-
   <!-- jumbo -->
   <div class="container-fluid jumbo">
     <div class="col-md-8">
@@ -78,46 +75,71 @@
     </div>
     <div class="col-md-4">
       <div class="col">
-        <form class="form">
+        <form class="form row g-3 needs-validation" novalidate">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
           </div>
           <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
           <button type="create" class="btn btn-primary">New Member</button>
         </form>
-
       </div>
     </div>
   </div>
-
+  <!-- card -->
+  <div class="container cards">
+   <div class="row">
+    <div class="card" style="width: 18rem;">
+      <img src="images/undraw_Website_setup_re_d4y9.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Website Design</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="images/undraw_coming_home_52ir.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">House Design</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="images/undraw_printing_invoices_5r4r.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Graphic Design</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+   </div>
+  </div>
+  <!-- footer -->
   <div class="container-fluid">
     <footer class="footer">
       <div class="container-fluid">
-        <div class="row" style="width: 100%;">
+        <div class="row">
           <div class="col-md-6 foot-txt">
             <ul class="list-unstyled">
               <li class="text-center"> &copy 2020. All Rights Reserved</li>
             </ul>
           </div>
-          <div class="col-md-6 social" style="padding-left: 35%; height: 20px;">
+          <div class="col-md-6 social">
           </div>
         </div>
       </div>
     </footer>
   </div>
-
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
