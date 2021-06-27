@@ -4,6 +4,26 @@
     margin: 20px;
     border: 2px solid black;
     border-radius: 8px;
-    box-shadow: 5px 10px grey;
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.301);
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
+.form-control {
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.301);
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    background: rgb(36, 36, 35); 
+    width: 100%; 
+    color: white; 
+    height: 90px;
+}
+.social {
+    padding-left: 35%; height: 20px;
+}
+.social-pic{
+    padding-right: 10px; height: 20px;
+}
