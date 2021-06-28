@@ -47,8 +47,11 @@ h1{
     object-fit: cover;
     opacity: 0.4; }
     
-.col-sm-8 {
+.col-sm-2 {
     background-color: rgb(36, 36, 35);
+}
+.btns{
+    margin: 50% 10% 10% 2%;
 }
 .jumbo{
     display: flex;
@@ -69,6 +72,7 @@ h1{
     width: 100%; 
     color: white; 
     height: 100px;
+    border: 2px solid white;
 }
 .social {
     padding-left: 35%; height: 20px;
