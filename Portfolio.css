@@ -47,7 +47,7 @@ h1{
     object-fit: cover;
     opacity: 0.4; }
     
-.col-sm-2 {
+.col-sm-4 {
     background-color: rgb(36, 36, 35);
 }
 .btns{
@@ -65,7 +65,7 @@ h1{
     background-color: wheat;
 }
 .button{ margin-left: 20px;
-margin-right: 60px;}
+margin-right: 10px;}
 /* footer */
 .footer{
     text-align: center;
