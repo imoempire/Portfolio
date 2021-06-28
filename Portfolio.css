@@ -64,7 +64,8 @@ h1{
     border-radius: 8px;
     background-color: wheat;
 }
-.button{ margin-left: 63px;}
+.button{ margin-left: 20px;
+margin-right: 10px;}
 /* footer */
 .footer{
     text-align: center;
