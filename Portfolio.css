@@ -51,7 +51,7 @@ h1{
     background-color: rgb(36, 36, 35);
 }
 .btns{
-    margin: 10% 0% 0% 0px;
+    margin: 10% 10% 0% -10px;
 }
 .jumbo{
     display: flex;
