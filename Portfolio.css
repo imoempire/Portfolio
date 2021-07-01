@@ -47,11 +47,11 @@ h1{
     object-fit: cover;
     opacity: 0.4; }
     
-.col-sm-2 {
+.col-sm-6 {
     background-color: rgb(36, 36, 35);
 }
 .btns{
-    margin: 256% 48% -250% -15px;
+    margin: 10% 0% 0% 0px;
 }
 .jumbo{
     display: flex;
