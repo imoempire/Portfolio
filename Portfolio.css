@@ -29,6 +29,9 @@ padding-left: 70px;
 
 }
 /* jumbo or carousel css */
+.Container-fluid .jumbo{
+    height: 500px;
+}
 .home-face {
 	background: rgb(12, 27, 59);
 	overflow: auto;
